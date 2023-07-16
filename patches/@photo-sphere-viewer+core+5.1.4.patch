@@ -1,0 +1,12 @@
+diff --git a/node_modules/@photo-sphere-viewer/core/index.module.js b/node_modules/@photo-sphere-viewer/core/index.module.js
+index 6a49a59..6fa06f6 100644
+--- a/node_modules/@photo-sphere-viewer/core/index.module.js
++++ b/node_modules/@photo-sphere-viewer/core/index.module.js
+@@ -3834,6 +3834,7 @@ var Tooltip = class extends AbstractComponent {
+    * Computes the position of the tooltip and its arrow
+    */
+   __computeTooltipPosition(style, config) {
++    console.log({config})
+     const arrow = this.state.arrow;
+     const top = config.top;
+     const height = style.height;
